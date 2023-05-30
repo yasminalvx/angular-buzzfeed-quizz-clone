@@ -1,55 +1,631 @@
-{
-  "title":"Você seria um heroi ou vilão ?",
-  "questions":[
-    {
-      "id":1,
-      "question": "Qual super poder você escolheria ?",
-      "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
-      ]
-    },
-    {
-      "id":2,
-      "question": "Quem você salvaria primeiro ?",
-      "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
-      ]
-    },
-    {
-      "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
-      "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
-      ]
-    },
-    {
-      "id":4,
-      "question": "Qual o seu maior foco ?",
-      "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
-      ]
-    },
-    {
-      "id":5,
-      "question": "Qual o seu apelido de super ser ?",
-      "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
-      ]
+[
+  {
+    "id": 1,
+    "title": "Você seria um heroi ou vilão ?",
+    "imgSrc": "https://th.bing.com/th/id/OIP.4ZKmHxdHYDnu0uiX1PgnGgHaFz?pid=ImgDet&rs=1",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual super poder você escolheria ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Raios-Lasers",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Voar",
+            "alias": "B"
+          },
+          {
+            "id": 3,
+            "name": "Explodir coisas",
+            "alias": "A"
+          },
+          {
+            "id": 4,
+            "name": "Curar feridas",
+            "alias": "B"
+          },
+          {
+            "id": 5,
+            "name": "Soltar fogo pelas mãos",
+            "alias": "A"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Quem você salvaria primeiro ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Crianças",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Idosos",
+            "alias": "A"
+          },
+          {
+            "id": 3,
+            "name": "Não saberia escolher",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Não destruir prédios",
+            "alias": "B"
+          },
+          {
+            "id": 2,
+            "name": "Socar a cara do inimigo",
+            "alias": "A"
+          },
+          {
+            "id": 3,
+            "name": "Não sujar meu traje",
+            "alias": "A"
+          },
+          {
+            "id": 4,
+            "name": "Não deixar ninguém se ferir",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual o seu maior foco ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ficar rico com poderes",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Salvar a cidade",
+            "alias": "B"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual o seu apelido de super ser ?",
+        "options": [
+          {
+            "id": 1,
+            "name": "O Terrivel",
+            "alias": "A"
+          },
+          {
+            "id": 2,
+            "name": "Amigo da vizinhança",
+            "alias": "B"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "A": "Você muito provavelmente seria um super vilão!",
+      "B": "Você muito provavelmente seria um super Herói!"
     }
-  ],
-  "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+  },
+  {
+    "id": 2,
+    "title": "Qual personagem do Naruto você seria?",
+    "imgSrc": "https://wallpaperaccess.com/full/2656190.jpg",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual é o seu estilo de luta preferido?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Taijutsu (combate corpo a corpo)",
+            "alias": "Rock Lee"
+          },
+          {
+            "id": 2,
+            "name": "Ninjutsu (técnicas elementais)",
+            "alias": "Sasuke"
+          },
+          {
+            "id": 3,
+            "name": "Genjutsu (ilusões)",
+            "alias": "Itachi"
+          },
+          {
+            "id": 4,
+            "name": "Nenhum, prefiro evitar conflitos",
+            "alias": "Shikamaru"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é a sua personalidade?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Energético e otimista",
+            "alias": "Naruto"
+          },
+          {
+            "id": 2,
+            "name": "Determinado e leal",
+            "alias": "Sakura"
+          },
+          {
+            "id": 3,
+            "name": "Tímido e gentil",
+            "alias": "Hinata"
+          },
+          {
+            "id": 4,
+            "name": "Reservado e analítico",
+            "alias": "Neji"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é o seu objetivo na vida?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ser reconhecido e amado por todos",
+            "alias": "Naruto"
+          },
+          {
+            "id": 2,
+            "name": "Se tornar uma ninja habilidosa e respeitada",
+            "alias": "Sakura"
+          },
+          {
+            "id": 3,
+            "name": "Recuperar minha honra e proteger minha vila",
+            "alias": "Sasuke"
+          },
+          {
+            "id": 4,
+            "name": "Superar meus limites e provar meu valor",
+            "alias": "Neji"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual é a sua frase de efeito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Acredite!",
+            "alias": "Naruto"
+          },
+          {
+            "id": 2,
+            "name": "Força interior!",
+            "alias": "Sakura"
+          },
+          {
+            "id": 3,
+            "name": "Vingança!",
+            "alias": "Sasuke"
+          },
+          {
+            "id": 4,
+            "name": "Que preguiça...",
+            "alias": "Shikamaru"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual é a sua cor favorita?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Laranja",
+            "alias": "Naruto"
+          },
+          {
+            "id": 2,
+            "name": "Rosa",
+            "alias": "Sakura"
+          },
+          {
+            "id": 3,
+            "name": "Azul",
+            "alias": "Sasuke"
+          },
+          {
+            "id": 4,
+            "name": "Verde",
+            "alias": "Shikamaru"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é a sua comida favorita?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Ramen",
+            "alias": "Naruto"
+          },
+          {
+            "id": 2,
+            "name": "Bolinhos de arroz",
+            "alias": "Sakura"
+          },
+          {
+            "id": 3,
+            "name": "Frango grelhado",
+            "alias": "Sasuke"
+          },
+          {
+            "id": 4,
+            "name": "Churrasco",
+            "alias": "Shikamaru"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual é o seu animal favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Raposa",
+            "alias": "Naruto"
+          },
+          {
+            "id": 2,
+            "name": "Coelho",
+            "alias": "Sakura"
+          },
+          {
+            "id": 3,
+            "name": "Cobra",
+            "alias": "Sasuke"
+          },
+          {
+            "id": 4,
+            "name": "Cervo",
+            "alias": "Neji"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Qual é o seu elemento preferido?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Fogo",
+            "alias": "Sasuke"
+          },
+          {
+            "id": 2,
+            "name": "Água",
+            "alias": "Hinata"
+          },
+          {
+            "id": 3,
+            "name": "Terra",
+            "alias": "Neji"
+          },
+          {
+            "id": 4,
+            "name": "Vento",
+            "alias": "Gaara"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Qual é a sua estação do ano favorita?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Primavera",
+            "alias": "Sakura"
+          },
+          {
+            "id": 2,
+            "name": "Verão",
+            "alias": "Naruto"
+          },
+          {
+            "id": 3,
+            "name": "Outono",
+            "alias": "Shikamaru"
+          },
+          {
+            "id": 4,
+            "name": "Inverno",
+            "alias": "Sasuke"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "question": "Qual é a sua habilidade especial?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Força sobre-humana",
+            "alias": "Rock Lee"
+          },
+          {
+            "id": 2,
+            "name": "Leitura de mentes",
+            "alias": "Shikamaru"
+          },
+          {
+            "id": 3,
+            "name": "Byakugan",
+            "alias": "Neji"
+          },
+          {
+            "id": 4,
+            "name": "Byakugan",
+            "alias": "Hinata"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "Naruto": "Você seria o Naruto Uzumaki! Energetico e otimista, você é uma pessoa cheia de determinação e nunca desiste dos seus sonhos. Você tem o poder de inspirar e motivar as pessoas ao seu redor.",
+      "Sakura": "Você seria a Sakura Haruno! Determinada e leal, você é uma pessoa que sempre se esforça para se tornar mais forte e proteger aqueles que ama.",
+      "Sasuke": "Você seria o Sasuke Uchiha! Sério e vingativo, você possui um grande poder e está disposto a fazer o que for necessário para alcançar seus objetivos.",
+      "Neji": "Você seria o Neji Hyuga! Reservado e analítico, você tem uma visão única das situações e está determinado a superar seus limites e provar seu valor.",
+      "Shikamaru": "Você seria o Shikamaru Nara! Inteligente e estratégico, você prefere evitar conflitos e busca soluções pacíficas. Sua habilidade em analisar situações e planejar estratégias o torna um aliado valioso.",
+      "Hinata": "Você seria a Hinata Hyuga! Tímida e gentil, você possui uma grande força interior. Sua determinação e amor pelos outros a tornam uma aliada confiável e uma protetora dedicada."
+    },
+    "imgResult": {
+      "Naruto": "https://th.bing.com/th/id/R.9c2130e81e5eb382590c581cdab07612?rik=sGHejRvPas%2brRA&pid=ImgRaw&r=0",
+      "Sakura": "https://i.pinimg.com/originals/da/ab/df/daabdfa28c4fc8407d3042e7061940f4.jpg",
+      "Sasuke": "https://www.pngitem.com/pimgs/m/469-4693410_sasuke-uchiha-sasuke-png-sasuke-uchiha-render-transparent.png",
+      "Neji": "https://i.pinimg.com/originals/a2/ea/d2/a2ead2a41892bd7fd4349ae1ff9c32b1.png",
+      "Shikamaru": "https://th.bing.com/th/id/OIP.Xwc99JdwUx5KRWOhLE0FAQHaGF?pid=ImgDet&rs=1",
+      "Hinata": "https://4.bp.blogspot.com/-upUVY6BX_hI/Tc8RBYcoJwI/AAAAAAAAAB8/wLqz9Owtvu4/s1600/hinata_hyuuga.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Você é time Marvel ou time DC?",
+    "imgSrc": "https://th.bing.com/th/id/R.736d05aaf57a3f0172d19ef60ab53abc?rik=GA2UyaERObQjhA&riu=http%3a%2f%2fnothingbutgeek.com%2fwp-content%2fuploads%2f2017%2f08%2fmarvel-vs-dc.jpg&ehk=5oJoHwHiXUZ4oTLTdKMPtVZNVNqiLOg0HML3DiNhnYE%3d&risl=&pid=ImgRaw&r=0",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual é o seu super-herói favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Homem de Ferro",
+            "alias": "Marvel"
+          },
+          {
+            "id": 2,
+            "name": "Batman",
+            "alias": "DC"
+          },
+          {
+            "id": 3,
+            "name": "Homem-Aranha",
+            "alias": "Marvel"
+          },
+          {
+            "id": 4,
+            "name": "Superman",
+            "alias": "DC"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Qual é o seu vilão favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Thanos",
+            "alias": "Marvel"
+          },
+          {
+            "id": 2,
+            "name": "Coringa",
+            "alias": "DC"
+          },
+          {
+            "id": 3,
+            "name": "Loki",
+            "alias": "Marvel"
+          },
+          {
+            "id": 4,
+            "name": "Lex Luthor",
+            "alias": "DC"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é a sua equipe de super-heróis favorita?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vingadores",
+            "alias": "Marvel"
+          },
+          {
+            "id": 2,
+            "name": "Liga da Justiça",
+            "alias": "DC"
+          },
+          {
+            "id": 3,
+            "name": "X-Men",
+            "alias": "Marvel"
+          },
+          {
+            "id": 4,
+            "name": "Esquadrão Suicida",
+            "alias": "DC"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Qual é o seu filme de super-herói favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vingadores: Ultimato",
+            "alias": "Marvel"
+          },
+          {
+            "id": 2,
+            "name": "Batman: O Cavaleiro das Trevas",
+            "alias": "DC"
+          },
+          {
+            "id": 3,
+            "name": "Homem-Aranha: No Aranhaverso",
+            "alias": "Marvel"
+          },
+          {
+            "id": 4,
+            "name": "Mulher-Maravilha",
+            "alias": "DC"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual é o seu superpoder favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Superforça",
+            "alias": "Marvel"
+          },
+          {
+            "id": 2,
+            "name": "Inteligência",
+            "alias": "DC"
+          },
+          {
+            "id": 3,
+            "name": "Agilidade",
+            "alias": "Marvel"
+          },
+          {
+            "id": 4,
+            "name": "Voo",
+            "alias": "DC"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é a sua cidade de super-heróis favorita?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Nova York",
+            "alias": "Marvel"
+          },
+          {
+            "id": 2,
+            "name": "Gotham City",
+            "alias": "DC"
+          },
+          {
+            "id": 3,
+            "name": "Wakanda",
+            "alias": "Marvel"
+          },
+          {
+            "id": 4,
+            "name": "Metropolis",
+            "alias": "DC"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual é o seu arqui-inimigo favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Magneto",
+            "alias": "Marvel"
+          },
+          {
+            "id": 2,
+            "name": "Ra's al Ghul",
+            "alias": "DC"
+          },
+          {
+            "id": 3,
+            "name": "Doutor Octopus",
+            "alias": "Marvel"
+          },
+          {
+            "id": 4,
+            "name": "Cheetah",
+            "alias": "DC"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Qual é o seu crossover de super-heróis favorito?",
+        "options": [
+          {
+            "id": 1,
+            "name": "Vingadores vs. X-Men",
+            "alias": "Marvel"
+          },
+          {
+            "id": 2,
+            "name": "Batman vs. Superman",
+            "alias": "DC"
+          },
+          {
+            "id": 3,
+            "name": "Deadpool vs. Carnificina",
+            "alias": "Marvel"
+          },
+          {
+            "id": 4,
+            "name": "Flash vs. Arrow",
+            "alias": "DC"
+          }
+        ]
+      }
+    ],
+    "results": {
+      "Marvel": "Você é time Marvel! Você se identifica com os heróis cheios de poderes, aventuras épicas e histórias conectadas que fazem parte do Universo Cinematográfico Marvel.",
+      "DC": "Você é time DC! Você aprecia as histórias sombrias e os heróis icônicos da DC Comics, como o Batman e o Superman."
+    }, 
+    "imgResult": {
+      "Marvel": "https://logos-download.com/wp-content/uploads/2018/07/Marvel_logo_red.png",
+      "DC": "https://th.bing.com/th/id/R.7b7d68d0b65ef265698b44930297b56e?rik=tJmEufSb2jP%2fzQ&pid=ImgRaw&r=0"
+    }
   }
-}
+  
+  
+]

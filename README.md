@@ -1,27 +1,29 @@
-# ProjetoBuzzfeed
+# BuzzFeed Clone - Desafio do Bootcamp Potência Tech Angular Developer
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+Este é um projeto desenvolvido como parte do Bootcamp Potência Tech Angular Developer - Powered by iFood. O objetivo é clonar o site BuzzFeed, criando uma versão simplificada do mesmo.
 
-## Development server
+## Sobre o Projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O projeto consiste em criar uma página web semelhante ao site BuzzFeed, utilizando as tecnologias aprendidas durante o bootcamp. Serão implementados questionários interativos com diferentes temas, onde os usuários poderão responder e descobrir resultados personalizados com base em suas respostas.
 
-## Code scaffolding
+## Funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Página inicial com lista de questionários disponíveis.
+- Páginas de questionários individuais, com perguntas e opções de resposta.
+- Cálculo de resultado com base nas respostas do usuário.
+- Exibição do resultado personalizado ao final do questionário.
 
-## Build
+## Tecnologias Utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular: um framework de desenvolvimento web front-end.
+- HTML: linguagem de marcação para estruturar a página web.
+- CSS: linguagem de estilo para estilizar a página web.
+- TypeScript: uma linguagem de programação tipada que compila para JavaScript.
 
-## Running unit tests
+## Executando o Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Certifique-se de ter o Angular CLI instalado globalmente em seu ambiente de desenvolvimento.
+2. Clone este repositório em sua máquina local.
+3. No diretório do projeto, execute o comando `npm install` para instalar as dependências.
+4. Execute o comando `ng serve` para iniciar o servidor de desenvolvimento.
+5. Abra o navegador e acesse `http://localhost:4200` para visualizar o projeto.
