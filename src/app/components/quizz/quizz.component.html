@@ -22,7 +22,10 @@
   </div>
 
   <div *ngIf=finished class="quizz_results">
-    <h1>O Seu resultado é:</h1>
+    <h2>O Seu resultado é:</h2>
+    <img src="{{imgSrcSelected}}" alt="" srcset="">
     <p>{{answerSelected}}</p>
+
+    <button class="btn-voltar" [routerLink]="['']"> Voltar </button>
   </div>
 </div>
