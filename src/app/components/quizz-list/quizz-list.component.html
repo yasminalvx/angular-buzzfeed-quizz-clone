@@ -1,0 +1,14 @@
+<div class="container">
+  <header>
+    <h1> Projeto Buzzfeed </h1>
+  </header>
+  <main>
+    <ul class="d-flex-row-wrap">
+      <li *ngFor="let item of questionList" class="card" [routerLink]="['detail', item.id]">
+        <h2> {{item.title}} </h2>
+        <img src="{{item.imgSrc}}" alt="" width="450">
+      </li>
+    </ul>
+
+  </main>
+</div>
